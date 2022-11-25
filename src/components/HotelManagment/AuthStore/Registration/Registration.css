@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container h1 {
+    color: white;
+    font-family: sans-serif;
+}
+
+.registartion-form {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.registartion-form input,
+.registartion-form select,
+.registartion-form textarea {
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    outline: none;
+    border:none;
+}
+
+
+.registartion-form input radio {
+    font-size: 100px;
+}
+
+.registartion-form input:focus,
+.registartion-form textarea:focus {
+    box-shadow: 3px 3px 10px rgb(228, 228, 228)
+}
+
+.registartion-form .submit {
+    font-size: 15px;
+    color: rgb(44, 44, 44);
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: 125%;
+    width:100px;
+    margin-top:15px;
+}
+
+.registartion-form .submit:hover {
+    box-shadow: 3px 3px 6px rgb(255, 214, 176);
+}
+label{
+    display: flex;
+    justify-content: start;
+}
+
+.registartion-form textarea{
+    width:200px;
+}

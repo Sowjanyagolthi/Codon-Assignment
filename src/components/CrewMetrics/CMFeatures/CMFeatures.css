@@ -1,0 +1,30 @@
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid red;
+  }
+  
+  .usecases-Container-1,
+  .usecases-Container-2,
+  .usecases-Container-3{
+  
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      justify-content: space-around;
+  
+  
+      color:#414141;
+      width:300px;
+  
+    border: 2px solid black;
+  }
+  
+  .createContainer,
+  .analyseContainer,
+  .evolveContainer{
+      width:360px;
+      size:28px;
+      color:#414141;
+  }
+  

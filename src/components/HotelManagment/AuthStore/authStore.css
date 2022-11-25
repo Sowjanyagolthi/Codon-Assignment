@@ -1,0 +1,27 @@
+/*body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Container{
+    width:1000px;
+    height:580px;
+   
+}
+.columnOne{
+    width:500px;
+    height:580px;
+}
+.columnTwo{
+    width:500px;
+    background-color: #336699;
+    display:flex;
+
+}
+.hotelImage{
+   width:105%;
+   height:100%;
+}*/
